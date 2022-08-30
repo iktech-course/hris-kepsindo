@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="Nik_Karyawan" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txt_Nik_Pegawai" min="-2" pref="166" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="Nama_Pegawai" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txt_Nama_Pegawai" min="-2" pref="166" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="Tempat_Lahir" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txt_Tempat_Lahir" min="-2" pref="166" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="Tanggal_Lahir" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txt_Tanggal_Lahir" min="-2" pref="166" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Nik_Ktp" min="-2" pref="141" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="txt_Nik_Ktp" min="-2" pref="166" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Jenis_Kelamin" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="cmd_laki_laki" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="cmb_perempuan" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Alamat" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="166" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="Status_Perkawinan" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cmb_Belum_Kawin" alignment="1" min="-2" pref="166" max="-2" attributes="0"/>
+                                  <Component id="cmb_Sudah_Menikah" alignment="1" min="-2" pref="166" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btn_Simpan" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="Contac_Person" min="-2" pref="121" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txt_telp" min="-2" pref="174" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="Tanggal_Masuk" min="-2" pref="155" max="-2" attributes="0"/>
+                                          <Component id="Pendidikan_Terahkir" min="-2" pref="155" max="-2" attributes="0"/>
+                                          <Component id="Id_Jabatan" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                                          <Component id="Status_Karyawan" alignment="1" min="-2" pref="155" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jScrollPane2" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="txt_Tanggal_Masuk" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane3" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="cmb_Karyawan_Tetap" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="cmb_Karyawan_Tidak_Tetap" min="-2" pref="174" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn_Batal" min="-2" pref="87" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                              <Component id="btn_Keluar" min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="60" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="42" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Pendidikan_Terahkir" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Nik_Ktp" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Component id="txt_Nik_Ktp" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_Nik_Pegawai" min="-2" max="-2" attributes="0"/>
+                          <Component id="Nik_Karyawan" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Nama_Pegawai" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="txt_Nama_Pegawai" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane2" min="-2" pref="84" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Tempat_Lahir" alignment="0" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="txt_Tempat_Lahir" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txt_Tanggal_Masuk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Tanggal_Masuk" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Tanggal_Lahir" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="txt_Tanggal_Lahir" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="Id_Jabatan" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Jenis_Kelamin" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="cmd_laki_laki" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cmb_perempuan" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Status_Karyawan" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Alamat" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" pref="51" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Component id="Contac_Person" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cmb_Belum_Kawin" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="Status_Perkawinan" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cmb_Sudah_Menikah" min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btn_Keluar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btn_Batal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btn_Simpan" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="52" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="cmb_Karyawan_Tetap" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cmb_Karyawan_Tidak_Tetap" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_telp" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Data Pegawai"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Nik_Ktp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nik_Ktp"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Nik_Karyawan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nik_Karyawan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Nama_Pegawai">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama_Pegawai"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tempat_Lahir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tempat_Lahir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tanggal_Lahir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tanggal_Lahir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Nik_Ktp">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Nik_Pegawai">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Nama_Pegawai">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Tempat_Lahir">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Tanggal_Lahir">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Jenis_Kelamin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jenis_Kelamin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Alamat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alamat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Tanggal_Masuk">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pendidikan_Terahkir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pendidikan_Terahkir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_telp">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tanggal_Masuk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tanggal_Masuk"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Id_Jabatan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id_Jabatan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Status_Karyawan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status_Karyawan"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JRadioButton" name="cmd_laki_laki">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Laki-laki"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="cmb_perempuan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Perempuan"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="txt_Pendidikan_Terahkir">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="1.SD"/>
+                <StringItem index="1" value="2.SMP"/>
+                <StringItem index="2" value="3.SMA/SMK"/>
+                <StringItem index="3" value="4.D3"/>
+                <StringItem index="4" value="5.D4"/>
+                <StringItem index="5" value="6.S1"/>
+                <StringItem index="6" value="7.S2"/>
+                <StringItem index="7" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="cmb_Id_Jabatan">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="1.Direktur_Utama"/>
+                <StringItem index="1" value="2.Wakil_Direktur"/>
+                <StringItem index="2" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JRadioButton" name="cmb_Karyawan_Tetap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Karyawan_Tetap"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Contac_Person">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contac_Person"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="cmb_Karyawan_Tidak_Tetap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Karyawan_Tidak_Tetap"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Status_Perkawinan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status_Perkawinan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="cmb_Belum_Kawin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Belum_Menikah"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="cmb_Sudah_Menikah">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sudah_Menikah"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb_Sudah_MenikahActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Batal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Batal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_BatalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Keluar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Keluar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_KeluarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Simpan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Simpan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_SimpanActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
